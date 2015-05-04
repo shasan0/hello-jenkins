@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+	<testsuite name="BankAdminLogin" id="a66d86d0-fb29-46b4-de71-8e0187a02dd1" timestamp="2015-04-29T10:53:50.244Z" time="1154.00 ms" totalTime="1154 ms" tests="1" iterations="1" failures="0" successes="1">
+		<testcase name="Status code is 400" successes="1" failures="0" />
+	</testsuite>
+	<testsuite name="list All AccessTypes" id="96dfe37c-d0c9-eaf3-9fda-8c4f0fec8602" timestamp="2015-04-29T10:53:50.245Z" time="633.00 ms" totalTime="633 ms" tests="1" iterations="1" failures="1" successes="0">
+		<testcase name="Status code is 400" successes="0" failures="1" />
+	</testsuite>
+	<testsuite name="Bank Admin logout" id="496bf275-4078-c644-daf4-0363c2c71c70" timestamp="2015-04-29T10:53:50.245Z" time="557.00 ms" totalTime="557 ms" tests="1" iterations="1" failures="1" successes="0">
+		<testcase name="Status code is 400" successes="0" failures="1" />
+	</testsuite>
+	<testsuite name="List locked Users" id="25be2f9a-9a8e-4a1c-aa8d-eaf93be9b4c3" timestamp="2015-04-29T10:53:50.246Z" time="544.00 ms" totalTime="544 ms" tests="1" iterations="1" failures="1" successes="0">
+		<testcase name="Status code is 400" successes="0" failures="1" />
+	</testsuite>
+	<testsuite name="Unlock User" id="544d6cc8-8521-581b-623a-292900a429cb" timestamp="2015-04-29T10:53:50.246Z" time="542.00 ms" totalTime="542 ms" tests="1" iterations="1" failures="1" successes="0">
+		<testcase name="Status code is 400" successes="0" failures="1" />
+	</testsuite>
+	<testsuite name="Add Bank Policy" id="9446f355-f550-8b51-464b-dc8eac5ae759" timestamp="2015-04-29T10:53:50.246Z" time="536.00 ms" totalTime="536 ms" tests="1" iterations="1" failures="1" successes="0">
+		<testcase name="Status code is 400" successes="0" failures="1" />
+	</testsuite>
+	<testsuite name="Show Bank Policy" id="4f26741a-14f2-4bed-7399-96a1defb9b4a" timestamp="2015-04-29T10:53:50.246Z" time="487.00 ms" totalTime="487 ms" tests="0" iterations="1" failures="0" successes="0">
+	</testsuite>
+	<testsuite name="Check UserId Availability" id="4bd51251-19ab-ce84-dbc7-125287b345f4" timestamp="2015-04-29T10:53:50.246Z" time="585.00 ms" totalTime="585 ms" tests="1" iterations="1" failures="1" successes="0">
+		<testcase name="Status code is 400" successes="0" failures="1" />
+	</testsuite>
+</testsuites>

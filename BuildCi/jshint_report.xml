@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuite name="jshint" tests="89" failures="609" errors="0">
+	<testcase name="dev/admin/js/app/app_router.js">
+		<failure message="1 JSHINT Failure">
+1. line 335, char 21: Missing &apos;()&apos; invoking a constructor.
+		</failure>
+	</testcase>
+	<testcase name="dev/admin/js/utils/view_access.js">
+		<failure message="28 JSHint Failures">
+1. line 25, char 106: Expected an assignment or function call and instead saw an expression.
+2. line 26, char 116: Expected an assignment or function call and instead saw an expression.
+3. line 27, char 126: Expected an assignment or function call and instead saw an expression.
+4. line 39, char 118: Expected an assignment or function call and instead saw an expression.
+5. line 40, char 116: Expected an assignment or function call and instead saw an expression.
+6. line 41, char 126: Expected an assignment or function call and instead saw an expression.
+7. line 42, char 115: Expected an assignment or function call and instead saw an expression.
+8. line 43, char 122: Expected an assignment or function call and instead saw an expression.
+9. line 54, char 116: Expected an assignment or function call and instead saw an expression.
+10. line 55, char 106: Expected an assignment or function call and instead saw an expression.
+11. line 56, char 116: Expected an assignment or function call and instead saw an expression.
+12. line 57, char 124: Expected an assignment or function call and instead saw an expression.
+13. line 65, char 116: Expected an assignment or function call and instead saw an expression.
+14. line 86, char 75: Expected an assignment or function call and instead saw an expression.
+15. line 87, char 87: Expected an assignment or function call and instead saw an expression.
+16. line 88, char 104: Expected an assignment or function call and instead saw an expression.
+17. line 89, char 77: Expected an assignment or function call and instead saw an expression.
+18. line 95, char 62: Expected an assignment or function call and instead saw an expression.
+19. line 96, char 89: Expected an assignment or function call and instead saw an expression.
+20. line 97, char 99: Expected an assignment or function call and instead saw an expression.
+21. line 98, char 85: Expected an assignment or function call and instead saw an expression.
+22. line 100, char 61: Expected an assignment or function call and instead saw an expression.
+23. line 104, char 80: Expected an assignment or function call and instead saw an expression.
+24. line 105, char 82: Expected an assignment or function call and instead saw an expression.
+25. line 106, char 88: Expected an assignment or function call and instead saw an expression.
+26. line 107, char 97: Expected an assignment or function call and instead saw an expression.
+27. line 108, char 81: Expected an assignment or function call and instead saw an expression.
+28. line 109, char 89: Expected an assignment or function call and instead saw an expression.
+		</failure>
+	</testcase>
+	<testcase name="dev/admin/views/maintenance/bank_pass_rules/bank_pass_rules.js">
+		<failure message="2 JSHint Failures">
+1. line 87, char 161: Expected an assignment or function call and instead saw an expression.
+2. line 88, char 167: Expected an assignment or function call and instead saw an expression.
+		</failure>
+	</testcase>
+	<testcase name="dev/admin/views/maintenance/cust_pass_rules/cust_pass_rules.js">
+		<failure message="2 JSHint Failures">
+1. line 106, char 143: Expected an assignment or function call and instead saw an expression.
+2. line 107, char 147: Expected an assignment or function call and instead saw an expression.
+		</failure>
+	</testcase>
+	<testcase name="dev/admin/views/maintenance/user_security/admin_users_list/admin_users_list.js">
+		<failure message="1 JSHINT Failure">
+1. line 43, char 39: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="dev/admin/views/reports/find_users/find_users.js">
+		<failure message="1 JSHINT Failure">
+1. line 82, char 28: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="dev/admin/views/service_options/bank_mail/view_email/view_email.js">
+		<failure message="1 JSHINT Failure">
+1. line 109, char 23: &apos;collapseIid&apos; used out of scope.
+		</failure>
+	</testcase>
+	<testcase name="dev/client/js/app/app_router.js">
+		<failure message="1 JSHINT Failure">
+1. line 622, char 21: Missing &apos;()&apos; invoking a constructor.
+		</failure>
+	</testcase>
+	<testcase name="dev/client/js/utils/utils.js">
+		<failure message="2 JSHint Failures">
+1. line 94, char 25: Missing semicolon.
+2. line 168, char 64: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="dev/client/js/utils/view_access.js">
+		<failure message="51 JSHint Failures">
+1. line 25, char 123: Expected an assignment or function call and instead saw an expression.
+2. line 26, char 105: Expected an assignment or function call and instead saw an expression.
+3. line 27, char 105: Expected an assignment or function call and instead saw an expression.
+4. line 39, char 115: Expected an assignment or function call and instead saw an expression.
+5. line 40, char 115: Expected an assignment or function call and instead saw an expression.
+6. line 41, char 109: Expected an assignment or function call and instead saw an expression.
+7. line 42, char 130: Expected an assignment or function call and instead saw an expression.
+8. line 50, char 118: Expected an assignment or function call and instead saw an expression.
+9. line 61, char 128: Expected an assignment or function call and instead saw an expression.
+10. line 62, char 126: Expected an assignment or function call and instead saw an expression.
+11. line 63, char 122: Expected an assignment or function call and instead saw an expression.
+12. line 64, char 130: Expected an assignment or function call and instead saw an expression.
+13. line 68, char 122: Expected an assignment or function call and instead saw an expression.
+14. line 78, char 96: Expected an assignment or function call and instead saw an expression.
+15. line 79, char 114: Expected an assignment or function call and instead saw an expression.
+16. line 80, char 122: Expected an assignment or function call and instead saw an expression.
+17. line 90, char 97: Expected an assignment or function call and instead saw an expression.
+18. line 91, char 98: Expected an assignment or function call and instead saw an expression.
+19. line 92, char 116: Expected an assignment or function call and instead saw an expression.
+20. line 93, char 107: Expected an assignment or function call and instead saw an expression.
+21. line 99, char 17: Bad line breaking before &apos;&amp;&amp;&apos;.
+22. line 100, char 17: Bad line breaking before &apos;&amp;&amp;&apos;.
+23. line 105, char 117: Expected an assignment or function call and instead saw an expression.
+24. line 106, char 127: Expected an assignment or function call and instead saw an expression.
+25. line 107, char 119: Expected an assignment or function call and instead saw an expression.
+26. line 108, char 108: Expected an assignment or function call and instead saw an expression.
+27. line 109, char 117: Expected an assignment or function call and instead saw an expression.
+28. line 110, char 117: Expected an assignment or function call and instead saw an expression.
+29. line 111, char 101: Expected an assignment or function call and instead saw an expression.
+30. line 112, char 101: Expected an assignment or function call and instead saw an expression.
+31. line 113, char 110: Expected an assignment or function call and instead saw an expression.
+32. line 122, char 121: Expected an assignment or function call and instead saw an expression.
+33. line 123, char 96: Expected an assignment or function call and instead saw an expression.
+34. line 133, char 34: Expected an assignment or function call and instead saw an expression.
+35. line 134, char 79: Expected an assignment or function call and instead saw an expression.
+36. line 135, char 79: Expected an assignment or function call and instead saw an expression.
+37. line 139, char 89: Expected an assignment or function call and instead saw an expression.
+38. line 140, char 86: Expected an assignment or function call and instead saw an expression.
+39. line 141, char 82: Expected an assignment or function call and instead saw an expression.
+40. line 142, char 100: Expected an assignment or function call and instead saw an expression.
+41. line 143, char 88: Expected an assignment or function call and instead saw an expression.
+42. line 144, char 119: Expected an assignment or function call and instead saw an expression.
+43. line 148, char 105: Expected an assignment or function call and instead saw an expression.
+44. line 149, char 102: Expected an assignment or function call and instead saw an expression.
+45. line 150, char 103: Expected an assignment or function call and instead saw an expression.
+46. line 151, char 106: Expected an assignment or function call and instead saw an expression.
+47. line 155, char 74: Expected an assignment or function call and instead saw an expression.
+48. line 156, char 86: Expected an assignment or function call and instead saw an expression.
+49. line 157, char 91: Expected an assignment or function call and instead saw an expression.
+50. line 162, char 81: Expected an assignment or function call and instead saw an expression.
+51. line 162, char 81: Too many errors. (85% scanned).
+		</failure>
+	</testcase>
+	<testcase name="dev/client/views/accounts/details_and_history/details_and_history.js">
+		<failure message="4 JSHint Failures">
+1. line 224, char 46: [&apos;SAVINGS&apos;] is better written in dot notation.
+2. line 225, char 47: [&apos;CHECKING&apos;] is better written in dot notation.
+3. line 226, char 41: [&apos;CD&apos;] is better written in dot notation.
+4. line 299, char 42: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="dev/client/views/accounts/overview/acc_overview.js">
+		<failure message="4 JSHint Failures">
+1. line 127, char 94: Use &apos;===&apos; to compare with &apos;0&apos;.
+2. line 128, char 94: Use &apos;===&apos; to compare with &apos;0&apos;.
+3. line 142, char 55: &apos;data&apos; is already defined.
+4. line 240, char 55: &apos;data&apos; is already defined.
+		</failure>
+	</testcase>
+	<testcase name="dev/client/views/calculators/loan/loan.js">
+		<failure message="1 JSHINT Failure">
+1. line 161, char 38: Use &apos;!==&apos; to compare with &apos;0.00&apos;.
+		</failure>
+	</testcase>
+	<testcase name="dev/client/views/calculators/retirement/retirement.js">
+		<failure message="2 JSHint Failures">
+1. line 180, char 28: Missing semicolon.
+2. line 234, char 28: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="dev/client/views/calculators/savings/savings.js">
+		<failure message="1 JSHINT Failure">
+1. line 149, char 38: Use &apos;!==&apos; to compare with &apos;0.00&apos;.
+		</failure>
+	</testcase>
+	<testcase name="dev/client/views/cash_management/ach_transfer/add_new_ach_recipient/add_new_ach_recipient_view.js">
+		<failure message="1 JSHINT Failure">
+1. line 101, char 19: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="dev/client/views/cash_management/ach_transfer/edit_ach_recipient/edit_ach_recipient_view.js">
+		<failure message="1 JSHINT Failure">
+1. line 135, char 19: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="dev/client/views/cash_management/wire_transfer/beneficiary_registration/beneficiary_registration_view.js">
+		<failure message="1 JSHINT Failure">
+1. line 126, char 19: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="dev/client/views/cash_management/wire_transfer/edit_beneficiary_registration/edit_beneficiary_registration_view.js">
+		<failure message="1 JSHINT Failure">
+1. line 113, char 19: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="dev/client/views/payments/edit_funds_transfer/edit_funds_transfer_view.js">
+		<failure message="1 JSHINT Failure">
+1. line 188, char 44: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="dev/client/views/payments/funds_transfer/funds_transfer_view.js">
+		<failure message="1 JSHINT Failure">
+1. line 188, char 44: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="dev/client/views/services/emails/view_email/view_email.js">
+		<failure message="1 JSHINT Failure">
+1. line 122, char 23: &apos;collapseIid&apos; used out of scope.
+		</failure>
+	</testcase>
+	<testcase name="dev/client/views/services/reminders/view_reminders/view_reminders.js">
+		<failure message="1 JSHINT Failure">
+1. line 130, char 111: Unnecessary semicolon.
+		</failure>
+	</testcase>
+	<testcase name="dev/client/views/user_management/edit_user/edit_user_view.js">
+		<failure message="2 JSHint Failures">
+1. line 327, char 136: Expected an assignment or function call and instead saw an expression.
+2. line 331, char 145: Expected an assignment or function call and instead saw an expression.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/apiMethods/accessTypeMethods.js">
+		<failure message="2 JSHint Failures">
+1. line 14, char 57: Missing semicolon.
+2. line 124, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/apiMethods/achFileMethods.js">
+		<failure message="3 JSHint Failures">
+1. line 18, char 57: Missing semicolon.
+2. line 64, char 13: Missing semicolon.
+3. line 102, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/apiMethods/achFileProcessMethods.js">
+		<failure message="1 JSHINT Failure">
+1. line 224, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/apiMethods/alertMethods.js">
+		<failure message="3 JSHint Failures">
+1. line 18, char 52: Missing semicolon.
+2. line 94, char 54: Missing semicolon.
+3. line 167, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/apiMethods/bankAdminMethods.js">
+		<failure message="2 JSHint Failures">
+1. line 18, char 56: Missing semicolon.
+2. line 229, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/apiMethods/bankMailMethods.js">
+		<failure message="13 JSHint Failures">
+1. line 140, char 26: Don&apos;t make functions within a loop.
+2. line 184, char 22: Don&apos;t make functions within a loop.
+3. line 550, char 34: Use &apos;!==&apos; to compare with &apos;&apos;.
+4. line 551, char 34: Use &apos;!==&apos; to compare with &apos;&apos;.
+5. line 552, char 26: Use &apos;!==&apos; to compare with &apos;&apos;.
+6. line 553, char 27: Use &apos;!==&apos; to compare with &apos;&apos;.
+7. line 554, char 25: Use &apos;!==&apos; to compare with &apos;&apos;.
+8. line 555, char 29: Use &apos;!==&apos; to compare with &apos;&apos;.
+9. line 556, char 31: Use &apos;!==&apos; to compare with &apos;&apos;.
+10. line 557, char 31: Use &apos;!==&apos; to compare with &apos;&apos;.
+11. line 558, char 31: Use &apos;!==&apos; to compare with &apos;&apos;.
+12. line 559, char 29: Use &apos;!==&apos; to compare with &apos;&apos;.
+13. line 651, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/apiMethods/batchMethods.js">
+		<failure message="3 JSHint Failures">
+1. line 23, char 52: Missing semicolon.
+2. line 298, char 33: Use &apos;===&apos; to compare with &apos;0&apos;.
+3. line 497, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/apiMethods/beneficiaryMethods.js">
+		<failure message="2 JSHint Failures">
+1. line 18, char 58: Missing semicolon.
+2. line 157, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/apiMethods/customerMethods.js">
+		<failure message="2 JSHint Failures">
+1. line 57, char 141: Expected an assignment or function call and instead saw an expression.
+2. line 181, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/apiMethods/deleteUserMethods.js">
+		<failure message="2 JSHint Failures">
+1. line 18, char 58: Missing semicolon.
+2. line 39, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/apiMethods/downTimeMethods.js">
+		<failure message="1 JSHINT Failure">
+1. line 83, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/apiMethods/fileBatchMethods.js">
+		<failure message="1 JSHINT Failure">
+1. line 42, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/apiMethods/fileBatchProcessMethods.js">
+		<failure message="2 JSHint Failures">
+1. line 55, char 81: Missing semicolon.
+2. line 112, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/apiMethods/inValidLoginMethods.js">
+		<failure message="3 JSHint Failures">
+1. line 18, char 59: Missing semicolon.
+2. line 37, char 147: Expected an assignment or function call and instead saw an expression.
+3. line 76, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/apiMethods/lastPasswordMethods.js">
+		<failure message="2 JSHint Failures">
+1. line 102, char 117: Use &apos;!==&apos; to compare with &apos;&apos;.
+2. line 121, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/apiMethods/lockUserMethods.js">
+		<failure message="1 JSHINT Failure">
+1. line 114, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/apiMethods/mailWordingMethods.js">
+		<failure message="3 JSHint Failures">
+1. line 14, char 38: Missing semicolon.
+2. line 26, char 65: Missing semicolon.
+3. line 73, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/apiMethods/orderCheckMethods.js">
+		<failure message="1 JSHINT Failure">
+1. line 56, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/apiMethods/pageHitMethods.js">
+		<failure message="4 JSHint Failures">
+1. line 29, char 17: Comma warnings can be turned off with &apos;laxcomma&apos;.
+2. line 28, char 18: Bad line breaking before &apos;,&apos;.
+3. line 48, char 18: Bad line breaking before &apos;,&apos;.
+4. line 69, char 18: Bad line breaking before &apos;,&apos;.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/apiMethods/recipientMethods.js">
+		<failure message="2 JSHint Failures">
+1. line 22, char 61: Missing semicolon.
+2. line 258, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/apiMethods/reminderMethods.js">
+		<failure message="4 JSHint Failures">
+1. line 20, char 55: Missing semicolon.
+2. line 183, char 58: Use &apos;===&apos; to compare with &apos;undefined&apos;.
+3. line 183, char 86: Use &apos;===&apos; to compare with &apos;null&apos;.
+4. line 196, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/apiMethods/responseHandleMethods.js">
+		<failure message="1 JSHINT Failure">
+1. line 61, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/apiMethods/routingNumberMethods.js">
+		<failure message="2 JSHint Failures">
+1. line 16, char 58: Missing semicolon.
+2. line 58, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/apiMethods/sessionReportMethods.js">
+		<failure message="2 JSHint Failures">
+1. line 18, char 60: Missing semicolon.
+2. line 27, char 147: Expected an assignment or function call and instead saw an expression.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/apiMethods/stopPaymentMethods.js">
+		<failure message="3 JSHint Failures">
+1. line 20, char 58: Missing semicolon.
+2. line 46, char 42: Missing semicolon.
+3. line 88, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/apiMethods/transactionLimitsMethods.js">
+		<failure message="2 JSHint Failures">
+1. line 18, char 63: Missing semicolon.
+2. line 157, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/apiMethods/userActivityMethods.js">
+		<failure message="5 JSHint Failures">
+1. line 24, char 147: Expected an assignment or function call and instead saw an expression.
+2. line 34, char 76: [&apos;$and&apos;] is better written in dot notation.
+3. line 59, char 76: [&apos;$and&apos;] is better written in dot notation.
+4. line 90, char 76: [&apos;$and&apos;] is better written in dot notation.
+5. line 166, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/apiMethods/userMethods.js">
+		<failure message="2 JSHint Failures">
+1. line 46, char 51: Missing semicolon.
+2. line 1154, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/apiMethods/wireTransferMethods.js">
+		<failure message="2 JSHint Failures">
+1. line 22, char 59: Missing semicolon.
+2. line 241, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/databases/dbConfig.js">
+		<failure message="1 JSHINT Failure">
+1. line 17, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/databases/queryMongo.js">
+		<failure message="1 JSHINT Failure">
+1. line 53, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/gen/coreResponseSchema.js">
+		<failure message="1 JSHINT Failure">
+1. line 594, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/gen/coreResponseTemplate.js">
+		<failure message="1 JSHINT Failure">
+1. line 17, char 11: Don&apos;t use extra leading zeros &apos;00&apos;.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/gen/coreResponseValidate.js">
+		<failure message="1 JSHINT Failure">
+1. line 7, char 41: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/gen/errorResponse.js">
+		<failure message="3 JSHint Failures">
+1. line 99, char 15: Don&apos;t use extra leading zeros &apos;00&apos;.
+2. line 281, char 10: Missing semicolon.
+3. line 286, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/gen/pdfGenerator/htmlToPdf.js">
+		<failure message="1 JSHINT Failure">
+1. line 54, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/gen/pdfGenerator/pdfMethods.js">
+		<failure message="1 JSHINT Failure">
+1. line 20, char 64: [&apos;defaultMethod&apos;] is better written in dot notation.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/gen/sessionMethods.js">
+		<failure message="1 JSHINT Failure">
+1. line 88, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/router/routeHandler.js">
+		<failure message="51 JSHint Failures">
+1. line 13, char 18: &apos;function*&apos; is only available in ES6 (use esnext option).
+2. line 16, char 13: &apos;yield&apos; is available in ES6 (use esnext option) or Mozilla JS extensions (use moz).
+3. line 17, char 11: Missing semicolon.
+4. line 20, char 18: &apos;function*&apos; is only available in ES6 (use esnext option).
+5. line 23, char 13: &apos;yield&apos; is available in ES6 (use esnext option) or Mozilla JS extensions (use moz).
+6. line 24, char 11: Missing semicolon.
+7. line 27, char 18: &apos;function*&apos; is only available in ES6 (use esnext option).
+8. line 30, char 13: &apos;yield&apos; is available in ES6 (use esnext option) or Mozilla JS extensions (use moz).
+9. line 31, char 11: Missing semicolon.
+10. line 34, char 18: &apos;function*&apos; is only available in ES6 (use esnext option).
+11. line 37, char 13: &apos;yield&apos; is available in ES6 (use esnext option) or Mozilla JS extensions (use moz).
+12. line 38, char 11: Missing semicolon.
+13. line 41, char 18: &apos;function*&apos; is only available in ES6 (use esnext option).
+14. line 44, char 13: &apos;yield&apos; is available in ES6 (use esnext option) or Mozilla JS extensions (use moz).
+15. line 45, char 11: Missing semicolon.
+16. line 50, char 18: &apos;function*&apos; is only available in ES6 (use esnext option).
+17. line 51, char 13: &apos;yield&apos; is available in ES6 (use esnext option) or Mozilla JS extensions (use moz).
+18. line 52, char 11: Missing semicolon.
+19. line 55, char 18: &apos;function*&apos; is only available in ES6 (use esnext option).
+20. line 57, char 13: &apos;yield&apos; is available in ES6 (use esnext option) or Mozilla JS extensions (use moz).
+21. line 61, char 11: Missing semicolon.
+22. line 64, char 19: &apos;function*&apos; is only available in ES6 (use esnext option).
+23. line 67, char 13: &apos;yield&apos; is available in ES6 (use esnext option) or Mozilla JS extensions (use moz).
+24. line 70, char 13: &apos;yield&apos; is available in ES6 (use esnext option) or Mozilla JS extensions (use moz).
+25. line 71, char 11: Missing semicolon.
+26. line 74, char 19: &apos;function*&apos; is only available in ES6 (use esnext option).
+27. line 77, char 13: &apos;yield&apos; is available in ES6 (use esnext option) or Mozilla JS extensions (use moz).
+28. line 78, char 11: Missing semicolon.
+29. line 81, char 19: &apos;function*&apos; is only available in ES6 (use esnext option).
+30. line 84, char 13: &apos;yield&apos; is available in ES6 (use esnext option) or Mozilla JS extensions (use moz).
+31. line 85, char 11: Missing semicolon.
+32. line 88, char 19: &apos;function*&apos; is only available in ES6 (use esnext option).
+33. line 91, char 13: &apos;yield&apos; is available in ES6 (use esnext option) or Mozilla JS extensions (use moz).
+34. line 92, char 11: Missing semicolon.
+35. line 95, char 19: &apos;function*&apos; is only available in ES6 (use esnext option).
+36. line 98, char 13: &apos;yield&apos; is available in ES6 (use esnext option) or Mozilla JS extensions (use moz).
+37. line 99, char 11: Missing semicolon.
+38. line 102, char 19: &apos;function*&apos; is only available in ES6 (use esnext option).
+39. line 105, char 13: &apos;yield&apos; is available in ES6 (use esnext option) or Mozilla JS extensions (use moz).
+40. line 106, char 11: Missing semicolon.
+41. line 109, char 19: &apos;function*&apos; is only available in ES6 (use esnext option).
+42. line 112, char 13: &apos;yield&apos; is available in ES6 (use esnext option) or Mozilla JS extensions (use moz).
+43. line 113, char 11: Missing semicolon.
+44. line 116, char 19: &apos;function*&apos; is only available in ES6 (use esnext option).
+45. line 119, char 13: &apos;yield&apos; is available in ES6 (use esnext option) or Mozilla JS extensions (use moz).
+46. line 120, char 11: Missing semicolon.
+47. line 123, char 19: &apos;function*&apos; is only available in ES6 (use esnext option).
+48. line 126, char 13: &apos;yield&apos; is available in ES6 (use esnext option) or Mozilla JS extensions (use moz).
+49. line 127, char 11: Missing semicolon.
+50. line 130, char 19: &apos;function*&apos; is only available in ES6 (use esnext option).
+51. line 130, char 19: Too many errors. (13% scanned).
+		</failure>
+	</testcase>
+	<testcase name="nodedb/server/WsCore/createWs.js">
+		<failure message="1 JSHINT Failure">
+1. line 101, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/server/coreApi/fundOneTimeFutureApi.js">
+		<failure message="3 JSHint Failures">
+1. line 39, char 81: [&apos;instructionId&apos;] is better written in dot notation.
+2. line 42, char 44: [&apos;instructionId&apos;] is better written in dot notation.
+3. line 43, char 44: [&apos;isActive&apos;] is better written in dot notation.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/server/coreApi/fundRecurringTransferApi.js">
+		<failure message="3 JSHint Failures">
+1. line 54, char 81: [&apos;instructionId&apos;] is better written in dot notation.
+2. line 57, char 44: [&apos;instructionId&apos;] is better written in dot notation.
+3. line 58, char 44: [&apos;isActive&apos;] is better written in dot notation.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/server/coreApi/transactionInquiryApi.js">
+		<failure message="1 JSHINT Failure">
+1. line 66, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/server/coreMethods/accountInquiryCore.js">
+		<failure message="2 JSHint Failures">
+1. line 33, char 53: [&apos;ZZ&apos;] is better written in dot notation.
+2. line 35, char 119: Use &apos;===&apos; to compare with &apos;&apos;.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/server/coreMethods/addAchInstructionCore.js">
+		<failure message="2 JSHint Failures">
+1. line 32, char 53: [&apos;ZZ&apos;] is better written in dot notation.
+2. line 34, char 119: Use &apos;===&apos; to compare with &apos;&apos;.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/server/coreMethods/bondCalculatorCore.js">
+		<failure message="2 JSHint Failures">
+1. line 32, char 53: [&apos;ZZ&apos;] is better written in dot notation.
+2. line 34, char 119: Use &apos;===&apos; to compare with &apos;&apos;.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/server/coreMethods/customerInquiryCore.js">
+		<failure message="6 JSHint Failures">
+1. line 40, char 53: [&apos;ZZ&apos;] is better written in dot notation.
+2. line 42, char 119: Use &apos;===&apos; to compare with &apos;&apos;.
+3. line 79, char 53: [&apos;ZZ&apos;] is better written in dot notation.
+4. line 81, char 119: Use &apos;===&apos; to compare with &apos;&apos;.
+5. line 145, char 38: Use &apos;===&apos; to compare with &apos;0&apos;.
+6. line 181, char 60: Use &apos;!==&apos; to compare with &apos;&apos;.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/server/coreMethods/debitCreditRequestCore.js">
+		<failure message="4 JSHint Failures">
+1. line 91, char 53: [&apos;ZZ&apos;] is better written in dot notation.
+2. line 93, char 119: Use &apos;===&apos; to compare with &apos;&apos;.
+3. line 108, char 53: [&apos;ZZ&apos;] is better written in dot notation.
+4. line 110, char 119: Use &apos;===&apos; to compare with &apos;&apos;.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/server/coreMethods/pendingTransferCore.js">
+		<failure message="2 JSHint Failures">
+1. line 28, char 53: [&apos;ZZ&apos;] is better written in dot notation.
+2. line 30, char 119: Use &apos;===&apos; to compare with &apos;&apos;.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/server/coreMethods/setupAlertCore.js">
+		<failure message="2 JSHint Failures">
+1. line 28, char 53: [&apos;ZZ&apos;] is better written in dot notation.
+2. line 30, char 119: Use &apos;===&apos; to compare with &apos;&apos;.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/server/coreMethods/stopPaymentCore.js">
+		<failure message="2 JSHint Failures">
+1. line 36, char 53: [&apos;ZZ&apos;] is better written in dot notation.
+2. line 38, char 119: Use &apos;===&apos; to compare with &apos;&apos;.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/server/coreMethods/transactionInquiryCore.js">
+		<failure message="2 JSHint Failures">
+1. line 47, char 53: [&apos;ZZ&apos;] is better written in dot notation.
+2. line 49, char 119: Use &apos;===&apos; to compare with &apos;&apos;.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/server/payveris/payverisCore.js">
+		<failure message="1 JSHINT Failure">
+1. line 48, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/server/payveris/sessionRequest.js">
+		<failure message="1 JSHINT Failure">
+1. line 92, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/supportMethods/bankPasswordRuleMethods.js">
+		<failure message="2 JSHint Failures">
+1. line 14, char 63: Missing semicolon.
+2. line 116, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/supportMethods/bankPolicyMethods.js">
+		<failure message="2 JSHint Failures">
+1. line 18, char 68: Missing semicolon.
+2. line 118, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="nodedb/supportMethods/policyRestrictionMethods.js">
+		<failure message="8 JSHint Failures">
+1. line 112, char 42: Use &apos;!==&apos; to compare with &apos;null&apos;.
+2. line 117, char 42: Use &apos;!==&apos; to compare with &apos;null&apos;.
+3. line 122, char 40: Use &apos;!==&apos; to compare with &apos;null&apos;.
+4. line 127, char 40: Use &apos;!==&apos; to compare with &apos;null&apos;.
+5. line 132, char 40: Use &apos;!==&apos; to compare with &apos;null&apos;.
+6. line 138, char 45: Use &apos;===&apos; to compare with &apos;null&apos;.
+7. line 147, char 47: Use &apos;===&apos; to compare with &apos;null&apos;.
+8. line 171, char 6: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="prod/admin/js/finalApp.js">
+		<failure message="51 JSHint Failures">
+1. line 1, char 187: Missing semicolon.
+2. line 1, char 279: Missing semicolon.
+3. line 1, char 301: Missing semicolon.
+4. line 1, char 321: Missing semicolon.
+5. line 1, char 407: Missing semicolon.
+6. line 1359, char 21: Missing &apos;()&apos; invoking a constructor.
+7. line 2042, char 47: Expected an assignment or function call and instead saw an expression.
+8. line 2075, char 48: Expected a conditional expression and instead saw an assignment.
+9. line 2205, char 33: Expected an assignment or function call and instead saw an expression.
+10. line 2257, char 35: Use &apos;!==&apos; to compare with &apos;null&apos;.
+11. line 2265, char 21: Use &apos;===&apos; to compare with &apos;null&apos;.
+12. line 2275, char 37: Expected an assignment or function call and instead saw an expression.
+13. line 2291, char 52: Expected an assignment or function call and instead saw an expression.
+14. line 2305, char 64: Expected an assignment or function call and instead saw an expression.
+15. line 2347, char 22: Use &apos;===&apos; to compare with &apos;null&apos;.
+16. line 2371, char 22: Use &apos;===&apos; to compare with &apos;null&apos;.
+17. line 2405, char 21: Use &apos;===&apos; to compare with &apos;null&apos;.
+18. line 2557, char 33: Expected an assignment or function call and instead saw an expression.
+19. line 2600, char 37: Expected an assignment or function call and instead saw an expression.
+20. line 2631, char 51: Use &apos;===&apos; to compare with &apos;null&apos;.
+21. line 2649, char 44: Expected a conditional expression and instead saw an assignment.
+22. line 2685, char 24: Use &apos;!==&apos; to compare with &apos;null&apos;.
+23. line 2718, char 37: Expected an assignment or function call and instead saw an expression.
+24. line 2760, char 21: Use &apos;===&apos; to compare with &apos;null&apos;.
+25. line 2792, char 37: Expected an assignment or function call and instead saw an expression.
+26. line 2879, char 26: Use &apos;!==&apos; to compare with &apos;null&apos;.
+27. line 2899, char 30: Use &apos;!==&apos; to compare with &apos;null&apos;.
+28. line 2953, char 33: Expected an assignment or function call and instead saw an expression.
+29. line 3105, char 26: Use &apos;===&apos; to compare with &apos;null&apos;.
+30. line 3150, char 41: Missing &apos;()&apos; invoking a constructor.
+31. line 3173, char 33: Expected an assignment or function call and instead saw an expression.
+32. line 3236, char 43: Use &apos;!==&apos; to compare with &apos;null&apos;.
+33. line 3326, char 26: Use &apos;===&apos; to compare with &apos;null&apos;.
+34. line 3503, char 28: Missing &apos;()&apos; invoking a constructor.
+35. line 3531, char 31: Missing &apos;()&apos; invoking a constructor.
+36. line 3577, char 76: Unnecessary directive &quot;use strict&quot;.
+37. line 3725, char 9: Unnecessary directive &quot;use strict&quot;.
+38. line 3812, char 9: Unnecessary directive &quot;use strict&quot;.
+39. line 3872, char 9: Unnecessary directive &quot;use strict&quot;.
+40. line 3936, char 9: Unnecessary directive &quot;use strict&quot;.
+41. line 3954, char 9: Unnecessary directive &quot;use strict&quot;.
+42. line 3972, char 9: Unnecessary directive &quot;use strict&quot;.
+43. line 4032, char 9: Unnecessary directive &quot;use strict&quot;.
+44. line 4127, char 63: Missing semicolon.
+45. line 4132, char 55: Missing semicolon.
+46. line 4134, char 91: Missing semicolon.
+47. line 4136, char 9: Expected an assignment or function call and instead saw an expression.
+48. line 4154, char 53: Missing semicolon.
+49. line 4161, char 10: Missing semicolon.
+50. line 4165, char 57: Missing semicolon.
+51. line 4165, char 57: Too many errors. (10% scanned).
+		</failure>
+	</testcase>
+	<testcase name="prod/js/finalApp.js">
+		<failure message="51 JSHint Failures">
+1. line 1, char 187: Missing semicolon.
+2. line 1, char 279: Missing semicolon.
+3. line 1, char 301: Missing semicolon.
+4. line 1, char 321: Missing semicolon.
+5. line 1, char 407: Missing semicolon.
+6. line 2622, char 21: Missing &apos;()&apos; invoking a constructor.
+7. line 3584, char 47: Expected an assignment or function call and instead saw an expression.
+8. line 3617, char 48: Expected a conditional expression and instead saw an assignment.
+9. line 3747, char 33: Expected an assignment or function call and instead saw an expression.
+10. line 3799, char 35: Use &apos;!==&apos; to compare with &apos;null&apos;.
+11. line 3807, char 21: Use &apos;===&apos; to compare with &apos;null&apos;.
+12. line 3817, char 37: Expected an assignment or function call and instead saw an expression.
+13. line 3833, char 52: Expected an assignment or function call and instead saw an expression.
+14. line 3847, char 64: Expected an assignment or function call and instead saw an expression.
+15. line 3889, char 22: Use &apos;===&apos; to compare with &apos;null&apos;.
+16. line 3913, char 22: Use &apos;===&apos; to compare with &apos;null&apos;.
+17. line 3947, char 21: Use &apos;===&apos; to compare with &apos;null&apos;.
+18. line 4099, char 33: Expected an assignment or function call and instead saw an expression.
+19. line 4142, char 37: Expected an assignment or function call and instead saw an expression.
+20. line 4173, char 51: Use &apos;===&apos; to compare with &apos;null&apos;.
+21. line 4191, char 44: Expected a conditional expression and instead saw an assignment.
+22. line 4227, char 24: Use &apos;!==&apos; to compare with &apos;null&apos;.
+23. line 4260, char 37: Expected an assignment or function call and instead saw an expression.
+24. line 4302, char 21: Use &apos;===&apos; to compare with &apos;null&apos;.
+25. line 4334, char 37: Expected an assignment or function call and instead saw an expression.
+26. line 4421, char 26: Use &apos;!==&apos; to compare with &apos;null&apos;.
+27. line 4441, char 30: Use &apos;!==&apos; to compare with &apos;null&apos;.
+28. line 4495, char 33: Expected an assignment or function call and instead saw an expression.
+29. line 4647, char 26: Use &apos;===&apos; to compare with &apos;null&apos;.
+30. line 4692, char 41: Missing &apos;()&apos; invoking a constructor.
+31. line 4715, char 33: Expected an assignment or function call and instead saw an expression.
+32. line 4778, char 43: Use &apos;!==&apos; to compare with &apos;null&apos;.
+33. line 4868, char 26: Use &apos;===&apos; to compare with &apos;null&apos;.
+34. line 5045, char 28: Missing &apos;()&apos; invoking a constructor.
+35. line 5073, char 31: Missing &apos;()&apos; invoking a constructor.
+36. line 5119, char 76: Unnecessary directive &quot;use strict&quot;.
+37. line 5267, char 9: Unnecessary directive &quot;use strict&quot;.
+38. line 5354, char 9: Unnecessary directive &quot;use strict&quot;.
+39. line 5414, char 9: Unnecessary directive &quot;use strict&quot;.
+40. line 5478, char 9: Unnecessary directive &quot;use strict&quot;.
+41. line 5496, char 9: Unnecessary directive &quot;use strict&quot;.
+42. line 5514, char 9: Unnecessary directive &quot;use strict&quot;.
+43. line 5574, char 9: Unnecessary directive &quot;use strict&quot;.
+44. line 5669, char 63: Missing semicolon.
+45. line 5674, char 55: Missing semicolon.
+46. line 5676, char 91: Missing semicolon.
+47. line 5678, char 9: Expected an assignment or function call and instead saw an expression.
+48. line 5696, char 53: Missing semicolon.
+49. line 5703, char 10: Missing semicolon.
+50. line 5707, char 57: Missing semicolon.
+51. line 5707, char 57: Too many errors. (11% scanned).
+		</failure>
+	</testcase>
+	<testcase name="public/cefcu/admin/js/finalApp.js">
+		<failure message="51 JSHint Failures">
+1. line 1, char 187: Missing semicolon.
+2. line 1, char 279: Missing semicolon.
+3. line 1, char 301: Missing semicolon.
+4. line 1, char 321: Missing semicolon.
+5. line 1, char 407: Missing semicolon.
+6. line 622, char 21: Missing &apos;()&apos; invoking a constructor.
+7. line 1089, char 47: Expected an assignment or function call and instead saw an expression.
+8. line 1122, char 48: Expected a conditional expression and instead saw an assignment.
+9. line 1252, char 33: Expected an assignment or function call and instead saw an expression.
+10. line 1304, char 35: Use &apos;!==&apos; to compare with &apos;null&apos;.
+11. line 1312, char 21: Use &apos;===&apos; to compare with &apos;null&apos;.
+12. line 1322, char 37: Expected an assignment or function call and instead saw an expression.
+13. line 1338, char 52: Expected an assignment or function call and instead saw an expression.
+14. line 1352, char 64: Expected an assignment or function call and instead saw an expression.
+15. line 1394, char 22: Use &apos;===&apos; to compare with &apos;null&apos;.
+16. line 1418, char 22: Use &apos;===&apos; to compare with &apos;null&apos;.
+17. line 1452, char 21: Use &apos;===&apos; to compare with &apos;null&apos;.
+18. line 1604, char 33: Expected an assignment or function call and instead saw an expression.
+19. line 1647, char 37: Expected an assignment or function call and instead saw an expression.
+20. line 1678, char 51: Use &apos;===&apos; to compare with &apos;null&apos;.
+21. line 1696, char 44: Expected a conditional expression and instead saw an assignment.
+22. line 1732, char 24: Use &apos;!==&apos; to compare with &apos;null&apos;.
+23. line 1765, char 37: Expected an assignment or function call and instead saw an expression.
+24. line 1807, char 21: Use &apos;===&apos; to compare with &apos;null&apos;.
+25. line 1839, char 37: Expected an assignment or function call and instead saw an expression.
+26. line 1926, char 26: Use &apos;!==&apos; to compare with &apos;null&apos;.
+27. line 1946, char 30: Use &apos;!==&apos; to compare with &apos;null&apos;.
+28. line 2000, char 33: Expected an assignment or function call and instead saw an expression.
+29. line 2152, char 26: Use &apos;===&apos; to compare with &apos;null&apos;.
+30. line 2197, char 41: Missing &apos;()&apos; invoking a constructor.
+31. line 2220, char 33: Expected an assignment or function call and instead saw an expression.
+32. line 2283, char 43: Use &apos;!==&apos; to compare with &apos;null&apos;.
+33. line 2373, char 26: Use &apos;===&apos; to compare with &apos;null&apos;.
+34. line 2550, char 28: Missing &apos;()&apos; invoking a constructor.
+35. line 2578, char 31: Missing &apos;()&apos; invoking a constructor.
+36. line 2624, char 76: Unnecessary directive &quot;use strict&quot;.
+37. line 2772, char 9: Unnecessary directive &quot;use strict&quot;.
+38. line 2859, char 9: Unnecessary directive &quot;use strict&quot;.
+39. line 2919, char 9: Unnecessary directive &quot;use strict&quot;.
+40. line 2983, char 9: Unnecessary directive &quot;use strict&quot;.
+41. line 3001, char 9: Unnecessary directive &quot;use strict&quot;.
+42. line 3019, char 9: Unnecessary directive &quot;use strict&quot;.
+43. line 3079, char 9: Unnecessary directive &quot;use strict&quot;.
+44. line 3174, char 63: Missing semicolon.
+45. line 3179, char 55: Missing semicolon.
+46. line 3181, char 91: Missing semicolon.
+47. line 3183, char 9: Expected an assignment or function call and instead saw an expression.
+48. line 3201, char 53: Missing semicolon.
+49. line 3208, char 10: Missing semicolon.
+50. line 3212, char 57: Missing semicolon.
+51. line 3212, char 57: Too many errors. (10% scanned).
+		</failure>
+	</testcase>
+	<testcase name="public/cefcu/js/finalApp.js">
+		<failure message="51 JSHint Failures">
+1. line 1, char 187: Missing semicolon.
+2. line 1, char 279: Missing semicolon.
+3. line 1, char 301: Missing semicolon.
+4. line 1, char 321: Missing semicolon.
+5. line 1, char 407: Missing semicolon.
+6. line 2376, char 21: Missing &apos;()&apos; invoking a constructor.
+7. line 3261, char 47: Expected an assignment or function call and instead saw an expression.
+8. line 3294, char 48: Expected a conditional expression and instead saw an assignment.
+9. line 3424, char 33: Expected an assignment or function call and instead saw an expression.
+10. line 3476, char 35: Use &apos;!==&apos; to compare with &apos;null&apos;.
+11. line 3484, char 21: Use &apos;===&apos; to compare with &apos;null&apos;.
+12. line 3494, char 37: Expected an assignment or function call and instead saw an expression.
+13. line 3510, char 52: Expected an assignment or function call and instead saw an expression.
+14. line 3524, char 64: Expected an assignment or function call and instead saw an expression.
+15. line 3566, char 22: Use &apos;===&apos; to compare with &apos;null&apos;.
+16. line 3590, char 22: Use &apos;===&apos; to compare with &apos;null&apos;.
+17. line 3624, char 21: Use &apos;===&apos; to compare with &apos;null&apos;.
+18. line 3776, char 33: Expected an assignment or function call and instead saw an expression.
+19. line 3819, char 37: Expected an assignment or function call and instead saw an expression.
+20. line 3850, char 51: Use &apos;===&apos; to compare with &apos;null&apos;.
+21. line 3868, char 44: Expected a conditional expression and instead saw an assignment.
+22. line 3904, char 24: Use &apos;!==&apos; to compare with &apos;null&apos;.
+23. line 3937, char 37: Expected an assignment or function call and instead saw an expression.
+24. line 3979, char 21: Use &apos;===&apos; to compare with &apos;null&apos;.
+25. line 4011, char 37: Expected an assignment or function call and instead saw an expression.
+26. line 4098, char 26: Use &apos;!==&apos; to compare with &apos;null&apos;.
+27. line 4118, char 30: Use &apos;!==&apos; to compare with &apos;null&apos;.
+28. line 4172, char 33: Expected an assignment or function call and instead saw an expression.
+29. line 4324, char 26: Use &apos;===&apos; to compare with &apos;null&apos;.
+30. line 4369, char 41: Missing &apos;()&apos; invoking a constructor.
+31. line 4392, char 33: Expected an assignment or function call and instead saw an expression.
+32. line 4455, char 43: Use &apos;!==&apos; to compare with &apos;null&apos;.
+33. line 4545, char 26: Use &apos;===&apos; to compare with &apos;null&apos;.
+34. line 4722, char 28: Missing &apos;()&apos; invoking a constructor.
+35. line 4750, char 31: Missing &apos;()&apos; invoking a constructor.
+36. line 4796, char 76: Unnecessary directive &quot;use strict&quot;.
+37. line 4944, char 9: Unnecessary directive &quot;use strict&quot;.
+38. line 5031, char 9: Unnecessary directive &quot;use strict&quot;.
+39. line 5091, char 9: Unnecessary directive &quot;use strict&quot;.
+40. line 5155, char 9: Unnecessary directive &quot;use strict&quot;.
+41. line 5173, char 9: Unnecessary directive &quot;use strict&quot;.
+42. line 5191, char 9: Unnecessary directive &quot;use strict&quot;.
+43. line 5251, char 9: Unnecessary directive &quot;use strict&quot;.
+44. line 5346, char 63: Missing semicolon.
+45. line 5351, char 55: Missing semicolon.
+46. line 5353, char 91: Missing semicolon.
+47. line 5355, char 9: Expected an assignment or function call and instead saw an expression.
+48. line 5373, char 53: Missing semicolon.
+49. line 5380, char 10: Missing semicolon.
+50. line 5384, char 57: Missing semicolon.
+51. line 5384, char 57: Too many errors. (11% scanned).
+		</failure>
+	</testcase>
+	<testcase name="public/iris/admin/js/finalApp.js">
+		<failure message="51 JSHint Failures">
+1. line 1, char 187: Missing semicolon.
+2. line 1, char 279: Missing semicolon.
+3. line 1, char 301: Missing semicolon.
+4. line 1, char 321: Missing semicolon.
+5. line 1, char 407: Missing semicolon.
+6. line 1359, char 21: Missing &apos;()&apos; invoking a constructor.
+7. line 2042, char 47: Expected an assignment or function call and instead saw an expression.
+8. line 2075, char 48: Expected a conditional expression and instead saw an assignment.
+9. line 2205, char 33: Expected an assignment or function call and instead saw an expression.
+10. line 2257, char 35: Use &apos;!==&apos; to compare with &apos;null&apos;.
+11. line 2265, char 21: Use &apos;===&apos; to compare with &apos;null&apos;.
+12. line 2275, char 37: Expected an assignment or function call and instead saw an expression.
+13. line 2291, char 52: Expected an assignment or function call and instead saw an expression.
+14. line 2305, char 64: Expected an assignment or function call and instead saw an expression.
+15. line 2347, char 22: Use &apos;===&apos; to compare with &apos;null&apos;.
+16. line 2371, char 22: Use &apos;===&apos; to compare with &apos;null&apos;.
+17. line 2405, char 21: Use &apos;===&apos; to compare with &apos;null&apos;.
+18. line 2557, char 33: Expected an assignment or function call and instead saw an expression.
+19. line 2600, char 37: Expected an assignment or function call and instead saw an expression.
+20. line 2631, char 51: Use &apos;===&apos; to compare with &apos;null&apos;.
+21. line 2649, char 44: Expected a conditional expression and instead saw an assignment.
+22. line 2685, char 24: Use &apos;!==&apos; to compare with &apos;null&apos;.
+23. line 2718, char 37: Expected an assignment or function call and instead saw an expression.
+24. line 2760, char 21: Use &apos;===&apos; to compare with &apos;null&apos;.
+25. line 2792, char 37: Expected an assignment or function call and instead saw an expression.
+26. line 2879, char 26: Use &apos;!==&apos; to compare with &apos;null&apos;.
+27. line 2899, char 30: Use &apos;!==&apos; to compare with &apos;null&apos;.
+28. line 2953, char 33: Expected an assignment or function call and instead saw an expression.
+29. line 3105, char 26: Use &apos;===&apos; to compare with &apos;null&apos;.
+30. line 3150, char 41: Missing &apos;()&apos; invoking a constructor.
+31. line 3173, char 33: Expected an assignment or function call and instead saw an expression.
+32. line 3236, char 43: Use &apos;!==&apos; to compare with &apos;null&apos;.
+33. line 3326, char 26: Use &apos;===&apos; to compare with &apos;null&apos;.
+34. line 3503, char 28: Missing &apos;()&apos; invoking a constructor.
+35. line 3531, char 31: Missing &apos;()&apos; invoking a constructor.
+36. line 3577, char 76: Unnecessary directive &quot;use strict&quot;.
+37. line 3725, char 9: Unnecessary directive &quot;use strict&quot;.
+38. line 3812, char 9: Unnecessary directive &quot;use strict&quot;.
+39. line 3872, char 9: Unnecessary directive &quot;use strict&quot;.
+40. line 3936, char 9: Unnecessary directive &quot;use strict&quot;.
+41. line 3954, char 9: Unnecessary directive &quot;use strict&quot;.
+42. line 3972, char 9: Unnecessary directive &quot;use strict&quot;.
+43. line 4032, char 9: Unnecessary directive &quot;use strict&quot;.
+44. line 4127, char 63: Missing semicolon.
+45. line 4132, char 55: Missing semicolon.
+46. line 4134, char 91: Missing semicolon.
+47. line 4136, char 9: Expected an assignment or function call and instead saw an expression.
+48. line 4154, char 53: Missing semicolon.
+49. line 4161, char 10: Missing semicolon.
+50. line 4165, char 57: Missing semicolon.
+51. line 4165, char 57: Too many errors. (10% scanned).
+		</failure>
+	</testcase>
+	<testcase name="public/iris/js/finalApp.js">
+		<failure message="51 JSHint Failures">
+1. line 1, char 187: Missing semicolon.
+2. line 1, char 279: Missing semicolon.
+3. line 1, char 301: Missing semicolon.
+4. line 1, char 321: Missing semicolon.
+5. line 1, char 407: Missing semicolon.
+6. line 2622, char 21: Missing &apos;()&apos; invoking a constructor.
+7. line 3584, char 47: Expected an assignment or function call and instead saw an expression.
+8. line 3617, char 48: Expected a conditional expression and instead saw an assignment.
+9. line 3747, char 33: Expected an assignment or function call and instead saw an expression.
+10. line 3799, char 35: Use &apos;!==&apos; to compare with &apos;null&apos;.
+11. line 3807, char 21: Use &apos;===&apos; to compare with &apos;null&apos;.
+12. line 3817, char 37: Expected an assignment or function call and instead saw an expression.
+13. line 3833, char 52: Expected an assignment or function call and instead saw an expression.
+14. line 3847, char 64: Expected an assignment or function call and instead saw an expression.
+15. line 3889, char 22: Use &apos;===&apos; to compare with &apos;null&apos;.
+16. line 3913, char 22: Use &apos;===&apos; to compare with &apos;null&apos;.
+17. line 3947, char 21: Use &apos;===&apos; to compare with &apos;null&apos;.
+18. line 4099, char 33: Expected an assignment or function call and instead saw an expression.
+19. line 4142, char 37: Expected an assignment or function call and instead saw an expression.
+20. line 4173, char 51: Use &apos;===&apos; to compare with &apos;null&apos;.
+21. line 4191, char 44: Expected a conditional expression and instead saw an assignment.
+22. line 4227, char 24: Use &apos;!==&apos; to compare with &apos;null&apos;.
+23. line 4260, char 37: Expected an assignment or function call and instead saw an expression.
+24. line 4302, char 21: Use &apos;===&apos; to compare with &apos;null&apos;.
+25. line 4334, char 37: Expected an assignment or function call and instead saw an expression.
+26. line 4421, char 26: Use &apos;!==&apos; to compare with &apos;null&apos;.
+27. line 4441, char 30: Use &apos;!==&apos; to compare with &apos;null&apos;.
+28. line 4495, char 33: Expected an assignment or function call and instead saw an expression.
+29. line 4647, char 26: Use &apos;===&apos; to compare with &apos;null&apos;.
+30. line 4692, char 41: Missing &apos;()&apos; invoking a constructor.
+31. line 4715, char 33: Expected an assignment or function call and instead saw an expression.
+32. line 4778, char 43: Use &apos;!==&apos; to compare with &apos;null&apos;.
+33. line 4868, char 26: Use &apos;===&apos; to compare with &apos;null&apos;.
+34. line 5045, char 28: Missing &apos;()&apos; invoking a constructor.
+35. line 5073, char 31: Missing &apos;()&apos; invoking a constructor.
+36. line 5119, char 76: Unnecessary directive &quot;use strict&quot;.
+37. line 5267, char 9: Unnecessary directive &quot;use strict&quot;.
+38. line 5354, char 9: Unnecessary directive &quot;use strict&quot;.
+39. line 5414, char 9: Unnecessary directive &quot;use strict&quot;.
+40. line 5478, char 9: Unnecessary directive &quot;use strict&quot;.
+41. line 5496, char 9: Unnecessary directive &quot;use strict&quot;.
+42. line 5514, char 9: Unnecessary directive &quot;use strict&quot;.
+43. line 5574, char 9: Unnecessary directive &quot;use strict&quot;.
+44. line 5669, char 63: Missing semicolon.
+45. line 5674, char 55: Missing semicolon.
+46. line 5676, char 91: Missing semicolon.
+47. line 5678, char 9: Expected an assignment or function call and instead saw an expression.
+48. line 5696, char 53: Missing semicolon.
+49. line 5703, char 10: Missing semicolon.
+50. line 5707, char 57: Missing semicolon.
+51. line 5707, char 57: Too many errors. (11% scanned).
+		</failure>
+	</testcase>
+	<testcase name="test/addRoutingNumber.js">
+		<failure message="5 JSHint Failures">
+1. line 53, char 30: Use &apos;!==&apos; to compare with &apos;&apos;.
+2. line 80, char 46: [&apos;banks&apos;] is better written in dot notation.
+3. line 89, char 46: [&apos;banks&apos;] is better written in dot notation.
+4. line 152, char 38: Missing semicolon.
+5. line 197, char 18: Missing semicolon.
+		</failure>
+	</testcase>
+	<testcase name="test/textToJSON.js">
+		<failure message="2 JSHint Failures">
+1. line 36, char 25: Use &apos;!==&apos; to compare with &apos;&apos;.
+2. line 81, char 18: Missing semicolon.
+		</failure>
+	</testcase>
+</testsuite>

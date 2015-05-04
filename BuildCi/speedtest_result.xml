@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="sitespeed.io.rule.https://vsoftiris_asia/iris/" tests="39" failures="7" skipped="0">
+    <testcase name="criticalpath :Avoid slowing down the critical rendering path (95)" status="95" time=""/>
+    <testcase name="spof :Frontend single point of failure (100)" status="100" time=""/>
+    <testcase name="cssnumreq :Make fewer HTTP requests for CSS files (100)" status="100" time=""/>
+    <testcase name="cssimagesnumreq :Make fewer HTTP requests for CSS image files (100)" status="100" time=""/>
+    <testcase name="jsnumreq :Make fewer synchronously HTTP requests for Javascript files (96)" status="96" time=""/>
+    <testcase name="yemptysrc :Avoid empty src or href (100)" status="100" time=""/>
+    <testcase name="ycompress :Compress components with gzip (100)" status="100" time=""/>
+    <testcase name="ycsstop :Put CSS at top (100)" status="100" time=""/>
+    <testcase name="yjsbottom :Put JavaScript at bottom (100)" status="100" time=""/>
+    <testcase name="yexpressions :Avoid CSS expressions (100)" status="100" time=""/>
+    <testcase name="ydns :Reduce DNS lookups (100)" status="100" time=""/>
+    <testcase name="yminify :Minify JavaScript and CSS (40)" status="40" time="">
+      <failure type="failed" message="The yminify has the score 40">"https://vsoftiris.asia/iris/js/brand_config.js,https://vsoftiris.asia/iris/js/finalApp.js,inline &amp;lt;script&amp;gt; tag #1,inline &amp;lt;script&amp;gt; tag #2,inline &amp;lt;script&amp;gt; tag #3,inline &amp;lt;script&amp;gt; tag #4"</failure>
+    </testcase>
+    <testcase name="redirects :Never do redirects (100)" status="100" time=""/>
+    <testcase name="noduplicates :Remove duplicate JavaScript and CSS (100)" status="100" time=""/>
+    <testcase name="yetags :Configure entity tags (ETags) (100)" status="100" time=""/>
+    <testcase name="yxhr :Make AJAX cacheable (100)" status="100" time=""/>
+    <testcase name="yxhrmethod :Use GET for AJAX requests (100)" status="100" time=""/>
+    <testcase name="mindom :Reduce the number of DOM elements (100)" status="100" time=""/>
+    <testcase name="yno404 :Avoid HTTP 404 (Not Found) error (100)" status="100" time=""/>
+    <testcase name="ymincookie :Reduce cookie size (100)" status="100" time=""/>
+    <testcase name="ycookiefree :Use cookie-free domains (100)" status="100" time=""/>
+    <testcase name="ynofilter :Avoid AlphaImageLoader filter (100)" status="100" time=""/>
+    <testcase name="avoidscalingimages :Never scale images in HTML (70)" status="70" time="">
+      <failure type="failed" message="The avoidscalingimages has the score 70">"https://vsoftiris.asia/iris/imgs/logo/iris_logo.png,https://vsoftiris.asia/iris/imgs/banner/IRIS_Small_Banner.png,https://vsoftiris.asia/iris/imgs/banner/CEFCU_Promo_Banner.png"</failure>
+    </testcase>
+    <testcase name="yfavicon :Make favicon small and cacheable (95)" status="95" time=""/>
+    <testcase name="thirdpartyasyncjs :Load third party javascript asynchronously (100)" status="100" time=""/>
+    <testcase name="cssprint :Avoid loading specific css for print (100)" status="100" time=""/>
+    <testcase name="cssinheaddomain :Load CSS in head from document domain (100)" status="100" time=""/>
+    <testcase name="syncjsinhead :Never load JS synchronously in head (100)" status="100" time=""/>
+    <testcase name="avoidfont :Avoid use of web fonts (100)" status="100" time=""/>
+    <testcase name="totalrequests :Reduce number of total requests (100)" status="100" time=""/>
+    <testcase name="expiresmod :Have expire headers for static components (23)" status="23" time="">
+      <failure type="failed" message="The expiresmod has the score 23">"https://vsoftiris.asia/iris/css/finalStyles.css,https://vsoftiris.asia/iris/js/brand_config.js,https://vsoftiris.asia/iris/js/finalApp.js,https://vsoftiris.asia/iris/imgs/logo/iris_logo.png,https://vsoftiris.asia/iris/imgs/banner/IRIS_Small_Banner.png,https://vsoftiris.asia/iris/imgs/banner/CEFCU_Promo_Banner.png,https://vsoftiris.asia/favicon.ico"</failure>
+    </testcase>
+    <testcase name="longexpirehead :Have expires headers equals or longer than one year (65)" status="65" time="">
+      <failure type="failed" message="The longexpirehead has the score 65">"https://vsoftiris.asia/iris/css/finalStyles.css,https://vsoftiris.asia/iris/js/brand_config.js,https://vsoftiris.asia/iris/js/finalApp.js,https://vsoftiris.asia/iris/imgs/logo/iris_logo.png,https://vsoftiris.asia/iris/imgs/banner/IRIS_Small_Banner.png,https://vsoftiris.asia/iris/imgs/banner/CEFCU_Promo_Banner.png,https://vsoftiris.asia/favicon.ico"</failure>
+    </testcase>
+    <testcase name="nodnslookupswhenfewrequests :Avoid DNS lookups when a page has few requests (100)" status="100" time=""/>
+    <testcase name="inlinecsswhenfewrequest :Do not load css files when the page has few request (80)" status="80" time="">
+      <failure type="failed" message="The inlinecsswhenfewrequest has the score 80">"https://vsoftiris.asia/iris/css/finalStyles.css"</failure>
+    </testcase>
+    <testcase name="textcontent :Have a reasonable percentage of textual content compared to the rest of the page (66)" status="66" time="">
+      <failure type="failed" message="The textcontent has the score 66">"33.04"</failure>
+    </testcase>
+    <testcase name="thirdpartyversions :Always use latest versions of third party javascripts (100)" status="100" time=""/>
+    <testcase name="ycdn :Use a Content Delivery Network (CDN) (40)" status="40" time="">
+      <failure type="failed" message="The ycdn has the score 40">"vsoftiris.asia: 6 components, 2667.6K (255.9K GZip)"</failure>
+    </testcase>
+    <testcase name="connectionclose :Do not close the connection (100)" status="100" time=""/>
+    <testcase name="privateheaders :Do not use private headers on static assets (100)" status="100" time=""/>
+  </testsuite>
+</testsuites>
